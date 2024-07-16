@@ -1,21 +1,35 @@
 <h1>Challenge Foro - Hub </h1>
+
 Este proyecto fue creado como parte del curso de Alura y Oracle ONE
 
-Objetivo
-Esta aplicación es un API REST
+Objetivo:
+Poner aprueba los conocimientos de Java y Spring Boot al realizar un API REST, con el que puedas poner en practica tus conocimientos.
 
 Funcionalidades
-Se pueden realizar las siguientes consultas:
+Se pueden realizar las siguientes acciones:
+<ul>
+  
+<li>Listar todos los tópicos disponibles.</li>
+  
+<li>Listar tópico por Id, este ingresado en la url.</li>
 
-Listar todos los tópicos disponibles.
-Listar tópico por Id, este ingresado en la url.
+<li>Crear nuevos tópicos.</li>
 
-Crear nuevos tópicos.
+<li>Modificar topico.</li>
 
-Modificar topico.
+<li>Eliminar tópicos existentes</li>
 
-Eliminar tópicos existentes
-
+</ul>
+  
 Tecnologías Utilizadas
-Java: Lenguaje de programación utilizado para el desarrollo del proyecto.
-API de Libros: Se utiliza una API externa para obtener la información de los libros. En este proyecto se utilizó la API Gutendex (https://gutendex.com/books/).
+<ul>
+<li>Java: Lenguaje principal de desarrollo.</li>
+
+<li>SpringBoot: Framework para el desarrollo de aplicaciones Java basadas en Spring.</li>
+
+<li>JWT (JSON Web Tokens): Utilizado para la autenticación de usuarios.</li>
+
+<li>MySQL: Base de datos para almacenar la información de los tópicos, usuarios y cursos.</li>
+
+<li>Insomnia: Herramienta utilizada para probar y documentar los endpoints de la API.</li>
+</ul>
